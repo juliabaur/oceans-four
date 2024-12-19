@@ -1,0 +1,28 @@
+/* Fonts */
+
+/* Basics */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif; /* change later */
+  color: var(--text-color); /* Example on using variables */
+  --text-color: #2c2e2d;
+  --primary-color: #28889c;
+  --secondary-color: #154866;
+  --highlight-color: #99d341;
+}
+
+/* Typography */
+
+/* Buttons */
+
+/* Basic Layout */
+
+/* Navbar */
+
+/* Footer */
+
+/* Sections */
+
+/* Media Queries */
