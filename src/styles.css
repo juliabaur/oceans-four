@@ -25,4 +25,106 @@
 
 /* Sections */
 
+/* Services and Why-Section */
+
+.headline {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  padding: 1rem;
+  text-align: center;
+}
+/* Services */
+
+#services-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.services-txt {
+  width: 300px;
+  height: 400px;
+  padding: 20px;
+  color: var(--text-color);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.services-txt h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  position: absolute;
+  top: 20px;
+  text-align: center;
+  color: var(--text-color);
+  background-color: rgb(255, 255, 255, 50%);
+  border-radius: 2%;
+  padding: 0.5rem;
+  margin: 0;
+}
+
+.services-txt p {
+  font-size: 1rem;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 2%;
+  padding: 0.5rem;
+  margin: 0;
+  width: calc(100% - 40px);
+}
+
+/* Services Background Images */
+#cleaning-oceans {
+  background-image: url('./images/cleaning.jpg');
+}
+
+#eco-travel {
+  background-image: url('./images/tourism.jpg');
+}
+
+#educational-events {
+  background-image: url('./images/workshop.jpg');
+}
+
+/* Why-Section */
+#why-content {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1rem 3rem;
+}
+
+.why-txt i {
+  border: 0.5rem solid var(--highlight-color);
+  color: var(--highlight-color);
+  border-radius: 100%;
+  padding: 0.7rem;
+  margin: 1rem;
+}
+
+.why-txt {
+  text-align: center;
+}
+
 /* Media Queries */
+@media only screen and (max-width: 768px) {
+  .services-txt {
+    width: 100%;
+    height: 300px;
+  }
+  #why-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1rem 1rem;
+  }
+}
