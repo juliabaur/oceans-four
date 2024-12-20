@@ -256,6 +256,41 @@ section h2 {
   line-height: 1.5;
 }
 
+/* Trust Section */
+
+#trust {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 5% 0;
+}
+
+#trust p {
+  color: var(--primary-color);
+}
+
+.trust-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  align-items: center;
+  width: 100%;
+  margin: 5% 0;
+}
+
+.trust-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.trust-icon img {
+  width: 50%;
+}
+
+
 
 
 /* Media Queries */
@@ -267,6 +302,20 @@ section h2 {
   .why-txt {
     flex: 1 1 calc(50% - 1.5rem);
   }
+
+  .trust-container {
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+
+  .trust-icon img {
+    width: 40%;
+  }
+
+  .why-txt h3 {
+    font-size: 1.1rem;
+    }
+
 
 }
 
