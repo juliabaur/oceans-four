@@ -14,7 +14,6 @@
 }
 
 /* Typography */
-
 p {
   font-weight: 300;
   line-height: 1.4em;
@@ -42,6 +41,7 @@ h3 {
   font-size: 1.8em;
   letter-spacing: 1px;
 }
+
 
 /* Buttons */
 
@@ -130,10 +130,17 @@ p {
 
 .headline {
   background-color: var(--primary-color);
-  color: var(--text-color);
   padding: 1rem;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
+
+section h2 {
+  color: white;
+}
+
 /* Services */
 
 #services-content {
@@ -198,56 +205,58 @@ p {
 /* Why-Section */
 #why-content {
   display: flex;
-  justify-content: center;
-  gap: 1rem;
-  margin: 1rem 3rem;
-}
-
-.why-txt i {
-  border: 0.5rem solid var(--highlight-color);
-  color: var(--highlight-color);
-  border-radius: 100%;
-  padding: 0.7rem;
-  margin: 1rem;
+  flex-wrap: wrap; 
+  justify-content: center; 
+  gap: 2rem; 
 }
 
 .why-txt {
-  text-align: center;
+  flex: 1 1 calc(25% - 1.5rem);
+  max-width: 300px; 
+  margin-top: 1rem;
 }
 
-/* Trust Section */
-
-#trust {
-  text-align: center;
+.why-card {
+  flex-grow: 1;
+  height: 16rem; 
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  gap: 1rem;
-  padding: 5% 0;
+  border: 0.1rem solid whitesmoke;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1); 
+  padding: 1rem;
+  text-align: center; 
 }
 
-#trust p {
-  color: var(--primary-color);
+.why-txt h3 {
+  font-size: 1.4rem;
+  margin: 0.5rem 0;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
-.trust-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  align-items: center;
-  width: 100%;
-  margin: 5% 0;
-}
-
-.trust-icon {
+.why-txt i {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: 3rem;
+  height: 3rem;
+  border: 0.5rem solid var(--highlight-color);
+  color: var(--highlight-color);
+  border-radius: 100%;
+  margin: 1rem 0;
 }
 
-.trust-icon img {
-  width: 50%;
+.why-txt p {
+  margin: 0;
+  color: var(--text-color);
+  font-size: 1rem;
+  line-height: 1.5;
 }
+
+
 
 /* Media Queries */
 @media only screen and (max-width: 768px) {
@@ -255,20 +264,17 @@ p {
     width: 100%;
     height: 300px;
   }
-  #why-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 1rem;
-    margin: 1rem 1rem;
+  .why-txt {
+    flex: 1 1 calc(50% - 1.5rem);
   }
 
-  .trust-container {
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
-  }
+}
 
-  .trust-icon img {
-    width: 40%;
+@media (max-width: 480px) {
+  .why-txt {
+    flex: 1 1 100%;
+  }
+  .why-txt h3 {
+  font-size: 1.1rem;
   }
 }
