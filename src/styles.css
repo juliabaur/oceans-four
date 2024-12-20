@@ -367,15 +367,15 @@ section h2 {
 
 /* Donations Background Images */
 #forest-restoration {
-  background-image: url("/src/images/cleaning.jpg");
+  background-image: url("https://images.unsplash.com/photo-1448375240586-882707db888b?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
 }
 
 #xmas-donation {
-  background-image: url("/src/images/tourism.jpg");
+  background-image: url("https://images.unsplash.com/photo-1482175828271-d793f8c731b2?q=80&w=3271&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
 }
 
 #enrironment-education {
-  background-image: url("/src/images/workshop.jpg");
+  background-image: url("https://images.unsplash.com/photo-1509062522246-3755977927d7?q=80&w=3332&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
 }
 
 /* Trust Section */
