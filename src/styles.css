@@ -42,7 +42,6 @@ h3 {
   letter-spacing: 1px;
 }
 
-
 /* Buttons */
 
 .btn-1 {
@@ -205,29 +204,29 @@ section h2 {
 /* Why-Section */
 #why-content {
   display: flex;
-  flex-wrap: wrap; 
-  justify-content: center; 
-  gap: 2rem; 
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
 }
 
 .why-txt {
   flex: 1 1 calc(25% - 1.5rem);
-  max-width: 300px; 
+  max-width: 300px;
   margin-top: 1rem;
 }
 
 .why-card {
   flex-grow: 1;
-  height: 16rem; 
+  height: 16rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   border: 0.1rem solid whitesmoke;
   border-radius: 1rem;
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1); 
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
   padding: 1rem;
-  text-align: center; 
+  text-align: center;
 }
 
 .why-txt h3 {
@@ -271,6 +270,10 @@ section h2 {
   color: var(--primary-color);
 }
 
+#trust h2 {
+  color: var(--text-color);
+}
+
 .trust-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -289,9 +292,6 @@ section h2 {
 .trust-icon img {
   width: 50%;
 }
-
-
-
 
 /* Media Queries */
 @media only screen and (max-width: 768px) {
@@ -314,9 +314,7 @@ section h2 {
 
   .why-txt h3 {
     font-size: 1.1rem;
-    }
-
-
+  }
 }
 
 @media (max-width: 480px) {
@@ -324,6 +322,6 @@ section h2 {
     flex: 1 1 100%;
   }
   .why-txt h3 {
-  font-size: 1.1rem;
+    font-size: 1.1rem;
   }
 }
