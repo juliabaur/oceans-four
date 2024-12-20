@@ -1,8 +1,9 @@
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/src/styles.css" />
+    <link rel="stylesheet" href="src/styles.css" />
     <script
       src="https://kit.fontawesome.com/f49a379e4a.js"
       crossorigin="anonymous"
@@ -11,7 +12,7 @@
   </head>
   <body>
     <header>
-      <img src="/src/images/logoipsum-330.svg" alt="Logo" />
+      <img src="src/images/logoipsum-330.svg" alt="Logo" />
       <nav>
         <ul>
           <li><a href="#">Nav Link</a></li>
@@ -23,9 +24,25 @@
     </header>
     <main>
       <section id="hero">
-        <h1>Lorem Ipsum</h1>
-        <div></div>
-        <div></div>
+        <div class="hero-information">
+          <h1>
+            Together for Cleaner Oceans, Greener Journeys, and a Brighter Future
+          </h1>
+          <p class="subline">
+            Join us in creating a world where oceans thrive, and people travel
+            responsibly.
+          </p>
+          <a href="#why" class="btn-1">About our mission</a>
+        </div>
+        <div class="cta">
+          <div>
+            <h2>Something about donations</h2>
+            <p class="subline">
+              A subline that says something like: please donate!
+            </p>
+          </div>
+          <a href="#donation" class="btn-2">Donate now!</a>
+        </div>
       </section>
       <section id="video">
         <h2>Check out our introductory video!</h2>
@@ -39,24 +56,70 @@
           
       </section>
       <section id="services">
-        <h2>Lorem Ipsum</h2>
-        <p></p>
-        <div class=""></div>
-        <div class=""></div>
-        <div class=""></div>
+        <div class="headline">
+          <h2>Our Services</h2>
+          <p>What we do to change the world:</p>
+        </div>
+        <div id="services-content">
+          <div class="services-txt" id="cleaning-oceans">
+            <h3>Cleaning Oceans</h3>
+            <p>
+              Our dedicated team of volunteers remove plastic waste and other
+              pollutants from oceans and coastlines, restoring marine habitats
+              and protecting wildlife.
+            </p>
+          </div>
+          <div class="services-txt" id="eco-travel">
+            <h3>Eco-Friendly Travel</h3>
+            <p>
+              We provide environment-safe travel experiences, connecting you
+              with nature while leaving no carbon footprint behind.
+            </p>
+          </div>
+          <div class="services-txt" id="educational-events">
+            <h3>Educational Events</h3>
+            <p>
+              From workshops to community cleanups, we empower individuals and
+              organizations with the knowledge and tools to protect our planet.
+            </p>
+          </div>
+        </div>
       </section>
       <section id="why">
-        <h2>Lorem Ipsum</h2>
-        <div class="">
-          <div class="">
-            <i class="fa-solid fa-user"></i>
-            <!--Example Icon-->
+        <div class="headline"><h2>Why Ocean's Four?</h2></div>
+        <div id="why-content">
+          <div class="why-txt">
+            <h3>Expertise in Sustainability</h3>
+            <i class="fa-solid fa-leaf"></i>
+            <p>
+              Decades of experience advising global institutions and crafting
+              impactful campaigns.
+            </p>
           </div>
-          <div class=""></div>
-          <div class=""></div>
-          <div class=""></div>
-          <div class=""></div>
-          <div class=""></div>
+          <div class="why-txt">
+            <h3>Educational Leadership</h3>
+            <i class="fa-solid fa-book"></i>
+            <p>
+              Publishers of books, magazines, and classes that inspire
+              eco-conscious living.
+            </p>
+          </div>
+          <div class="why-txt">
+            <h3>Proven Impact</h3>
+            <i class="fa-solid fa-hand-holding-heart"></i>
+            <p>
+              From restored coastlines to policy changes, we deliver tangible
+              results for the planet.
+            </p>
+          </div>
+          <div class="why-txt">
+            <h3>Transparent Funding</h3>
+            <i class="fa-solid fa-money-bill-wave"></i>
+            <p>
+              Every membership fee, donation, and product sale directly supports
+              our initiatives.
+            </p>
+          </div>
         </div>
       </section>
       <section id="donation">
