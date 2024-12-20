@@ -215,6 +215,40 @@ p {
   text-align: center;
 }
 
+/* Trust Section */
+
+#trust {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 5% 0;
+}
+
+#trust p {
+  color: var(--primary-color);
+}
+
+.trust-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  align-items: center;
+  width: 100%;
+  margin: 5% 0;
+}
+
+.trust-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.trust-icon img {
+  width: 50%;
+}
+
 /* Media Queries */
 @media only screen and (max-width: 768px) {
   .services-txt {
@@ -227,5 +261,14 @@ p {
     justify-content: center;
     gap: 1rem;
     margin: 1rem 1rem;
+  }
+
+  .trust-container {
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+
+  .trust-icon img {
+    width: 40%;
   }
 }
