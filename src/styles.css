@@ -137,11 +137,16 @@ section {
   align-items: flex-start;
   gap: 1.2rem;
 }
-.hero-information h1,
-p {
+.hero-information h1 {
   color: white;
   max-width: 60%;
 }
+
+.hero-information p {
+  color: white;
+  max-width: 60%;
+}
+
 .cta {
   background-color: var(--primary-color);
   padding: 4%;
@@ -155,6 +160,14 @@ p {
 }
 .cta h2 {
   color: white;
+}
+
+.cta p {
+  color: white;
+}
+
+.cta a {
+  min-width: 20%;
 }
 
 /* Video */
