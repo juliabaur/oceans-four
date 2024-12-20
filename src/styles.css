@@ -42,6 +42,27 @@ h3 {
   letter-spacing: 1px;
 }
 
+/* Header */
+header {
+  gap: 1rem;
+  img {
+    padding: 0;
+    margin: 0;
+    width: 5.5rem;
+    height: auto;
+  }
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #28889C;
+}
+.ul {
+  display: flex;
+  font-display: block;
+  flex-direction: row;
+}
+
 /* Buttons */
 
 .btn-1 {
@@ -314,6 +335,49 @@ section h2 {
 
 .trust-icon img {
   width: 50%;
+}
+
+/* Footer */
+footer {
+  p {
+    color: #2C2E2D;
+  }
+  background-color: #28889C;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin: 3;
+  border: 0;
+  width: 5;
+}
+input[text],
+input[submit] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+input[checkbox] {
+  margin-top: 16px;
+}
+input[type="submit"] {
+  background-color: #326E58;
+  color: white;
+  border: none;
+}
+input[submit]:hover {
+  opacity: 0.8;
 }
 
 /* Media Queries */
