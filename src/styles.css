@@ -14,7 +14,6 @@
 }
 
 /* Typography */
-
 p {
   font-weight: 300;
   line-height: 1.4em;
@@ -42,6 +41,7 @@ h3 {
   font-size: 1.8em;
   letter-spacing: 1px;
 }
+
 
 /* Buttons */
 
