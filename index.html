@@ -12,13 +12,13 @@
   </head>
   <body>
     <header>
-      <img src="src/images/logoipsum-330.svg" alt="Logo" />
+      <img src="/src/images/4ocean-28503.png" alt="Logo" />
       <nav>
         <ul>
-          <li><a href="#">Nav Link</a></li>
-          <li><a href="#">Nav Link</a></li>
-          <li><a href="#">Nav Link</a></li>
-          <li><a href="#">Nav Link</a></li>
+          <li><a href="#" class="purpose">OUR PURPOSE</a></li>
+          <li><a href="#" class="about">ABOUT US</a></li>
+          <li><a href="#" class="work">OUR WORK</a></li>
+          <li><a href="#" class="involved">GET INVOLVED</a></li>
         </ul>
       </nav>
     </header>
@@ -179,14 +179,32 @@
       </section>
     </main>
     <footer>
-      <p>Paragraph</p>
+      <p>Ocean's Four Partnership</p>
       <div class="nav-links"></div>
       <div class="sm-links">
-        <a href=""><img src="" alt="" /></a>
-        <a href=""><img src="" alt="" /></a>
-        <a href=""><img src="" alt="" /></a>
+        <a href="mailto:oceansfour@oc.com"
+          ><img src="" alt="" />oceansfour@oc.com</a
+        >
       </div>
-      <p>© Copyright stuff</p>
+      <form action="action_page.php">
+        <div class="container">
+          <h2>Subscribe to our Newsletter</h2>
+          <p>We Learn Together How to Conserve the Ocean!</p>
+        </div>
+        <div class="container" style="background-color: white">
+          <input type="text" placeholder="Name" name="name" required />
+          <input type="text" placeholder="Email address" name="mail" required />
+          <label>
+            <input type="checkbox" checked="checked" name="subscribe" /> Daily
+            Newsletter
+          </label>
+        </div>
+
+        <div class="container">
+          <input type="submit" value="Subscribe" />
+        </div>
+      </form>
+      <p>Copyright © 2024 Oceans's Four | Privacy Policy</p>
     </footer>
   </body>
 </html>
